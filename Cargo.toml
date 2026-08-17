@@ -1,0 +1,6 @@
+[workspace]
+members = [
+    "haven-core",
+
+]
+resolver = "2"
