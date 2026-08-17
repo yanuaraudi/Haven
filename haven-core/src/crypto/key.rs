@@ -1,7 +1,7 @@
 use zeroize::{Zeroize, ZeroizeOnDrop};
 use argon2::Argon2;
 
-#[derive(Clone, Zeroize, ZeroizeOnDrop)]
+#[derive(Clone, Zeroize, ZeroizeOnDrop, Debug)]
 pub struct DerivedKey {
     pub bytes: [u8; 32],
 }
