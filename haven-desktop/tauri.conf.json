@@ -1,0 +1,23 @@
+{
+  "$schema": "https://schema.tauri.app/config/2",
+  "productName": "Haven Vault",
+  "version": "0.1.0",
+  "identifier": "com.haven.vault",
+  "build": {
+    "frontendDist": "../ui"
+  },
+  "app": {
+    "withGlobalTauri": true,
+    "windows": [
+      {
+        "title": "Haven - Secure Vault Password Manager",
+        "width": 1100,
+        "height": 720,
+        "minWidth": 900,
+        "minHeight": 600,
+        "resizable": true,
+        "center": true
+      }
+    ]
+  }
+}
